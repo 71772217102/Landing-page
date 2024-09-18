@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Document</title>
+    <style>
+        header{
+            background-color: black;
+            color:white;
+            padding:10px;
+            display:flex;
+            justify-content: space-between;
+        }
+        ul{
+            list-style-type: none;
+            display:flex;
+        }
+        ul li a{
+            text-decoration: none;
+            font-size: 25px;
+            color:white;
+            margin-right: 20px;
+        }
+
+        .one{
+            text-align: center;
+            background: url(../images/technology.jpg);
+            background-size: cover;
+            height:350px;
+            color:white;
+           
+        }
+        .one h1{
+            font-size: 35px;
+        }
+        .one p{
+            font-size: 25px;
+        }
+        .one a{
+           
+            text-decoration: none;
+            background-color: white;
+            color:black;
+            padding: 10px;
+            border-radius: 5px;
+            font-size: 15px;
+            font-weight: bolder;
+        }
+        
+        .two{
+            text-align: center;
+        }
+        section p{
+            position: relative;
+            text-align: center;
+            width: 400px;
+            left:37%;
+        }
+        section h3{
+            font-size: 30px;
+        }
+        .two section{
+            background-color:gainsboro;
+        }
+        li a:hover{
+           color:cyan;
+           cursor:poiter;
+        }
+        .one a:hover{
+            background-color: black;
+            color:white;
+        }
+        
+        footer{
+            background-color: black;
+            padding: 5px;
+            color:white;
+            font-size: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    
+    <header>
+        <h1>Simple Landing Page </h1>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Service</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </header>
+    <div class="one">
+        <h1>Welcome to Our website</h1>
+        <p>Technology provides innovative ways of doing work through various smart and innovative means </p>
+        <a href="#">Learn More</a>
+    </div>
+    <div class="two">
+        <section>
+            <h3>Features</h3>
+            <img src="../images/fulstack.png" height="400px" width="400px" >
+            <p>Full stack development is the process of developing both the frontend and backend of applications.<br>
+                 Any application has a frontend (user-facing) component and a backend (database and logic) component.<br>
+                 The frontend contains the user interface and code related to user interactions with the application </p>
+        </section>
+       
+        <section>
+            <img src="../images/ai.jpg"height="400px" width="400px" >
+            <p>Artificial Intelligence (AI) is an evolving technology that tries to simulate human intelligence using machines.<br>
+                 AI encompasses various subfields, including machine learning (ML) and deep learning, which allow systems to learn and adapt in novel ways from training data. </p>
+        </section>
+
+        <section>
+            <img src="../images/datascience.webp"height="400px" width="400px" >
+            <p>Data science is the study of data to extract meaningful insights for business.<br>
+                 It is a multidisciplinary approach that combines principles and practices from the fields of mathematics, statistics, artificial intelligence, and computer engineering to analyze large amounts of data.</p>
+        </section>
+
+    </div>
+    <footer>
+        <p>Created by Abarna</p>
+    </footer>
+</body>
+</html>
